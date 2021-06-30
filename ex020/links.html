@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links</title>
+        <style>
+
+            /* Seletores Personalizados.
+                # = ID
+                . = CLASS
+                : = PSEUDO-CLASS
+                :: = PSEUDO-ELEMENT
+                > = CHILDREN
+
+            */
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            a {
+                color: red;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            a:visited {
+                color: darkred;
+            }
+
+            a:hover {
+                color: black;                
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: blue;
+            }
+
+            .especial {
+                background-color: rgb(167, 138, 138);
+                
+            }
+
+            .especial::after {
+                content: ' ⇠';
+            }
+
+            .especial::before {
+                content: '⇢ ';
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://github.com/winstedyuri" target="_blank" type="external">Repositório do GitHub</a></li>
+            <li><a href="https://youtube.com/channel/UCXAhPAY6OsT6kvHmAroe-Lg" target="_blank" type="external" class="especial">Canal do Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank" type="external">Site do Curso em Vídeo</a></li>
+        </ul>
+    </body>
+
+</html>
