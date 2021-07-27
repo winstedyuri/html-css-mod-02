@@ -1,0 +1,104 @@
+    /* "import" da fonte.
+    
+    @font-face 
+        font-family: 'Droid Android';
+        src: url('idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    
+    */
+    
+    @media (max-width: 1000px){
+        iframe{
+          width: 80%;
+        }
+      }
+    header {
+    text-align: center;
+    padding: 10px;
+    margin: -10px;
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.445);
+    }
+
+    
+
+    nav {
+        font-size: 13px;
+        padding: 2px;
+        text-align: left;
+    }
+
+    nav > a {
+        text-decoration: blink;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    nav > a:hover {
+	    background: #494cdd;
+        border-radius: 10%;
+        padding: 3px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        background-color: #84E1AD;
+        }
+
+    main {
+        max-width: 50rem;
+        color: black;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        margin: auto;
+        padding: 0px 5px 0px 5px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2{
+        font-family: idroid;
+        font-size: 30px;
+        color: #1A5C38;
+    }
+
+    h3 {
+        font-family: idroid;
+        background-color:#a2e7c0;
+        background-image: linear-gradient(to right, transparent, rgb(255, 255, 255));
+        color: #1A5C38;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    footer {
+        background-color: #63B788;
+        color: white;
+        text-align: center;
+        padding: 4px;
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    #bugdroid {
+        text-align: center;
+    }
+
+    #iframe {
+        text-align: center;
+        padding: 30px;
+    }
+
+    #background {
+        background-color: #1A5C38;
+    }

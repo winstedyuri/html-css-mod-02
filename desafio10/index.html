@@ -6,65 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Desafio Android</title>
-
-        <style>
-            
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                color:white;
-                background-color: #84E1AD;
-        }
-
-            header {
-            text-align: center;
-            padding: 10px;
-            margin: -10px;
-            box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.445);
-
-        }
-
-            nav {
-                padding: 2px;
-                text-align: left;
-        }
-
-            nav > a {
-                text-decoration: none;
-                color: white;
-                font-weight: bold;
-                margin-right: 30px;
-
-        }
-
-            nav > a:hover {
-                text-decoration: underline;
-            }
-
-            main {
-                width: 50rem;
-                color: black;
-                background-color: white;
-                border-radius: 0px 0px 20px 20px;
-                margin: auto;
-                padding: 0px 5px 0px 8px;
-        }
-
-            footer {
-                background-color: #63B788;
-                color: white;
-                text-align: center;
-                padding: 4px;
-        }
-
-            footer > p {
-                margin: 0px;
-        }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <h1>Curiosidades de Tecnologia</h1>
+                <h1>CURIOSIDADES DE TECNOLOGIA</h1>
                 <p>
                     Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
                 </p>
@@ -77,13 +24,13 @@
         </header>
         <main>
             <section>
-                <h1>História do Mascote do Android</h1>
+                <h2>História do Mascote do Android</h2>
                 <p>
                     Provavelmente você sabe que o sistema operacional <a href="https://www.android.com/intl/pt-BR_br/" target="_blank" rel="external">Android</a>, mantido pelo <a href="https://pt.wikipedia.org/wiki/Google"  target="_blank" rel="external">Google</a> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
                 </p>
             </section>
             <section>
-                <h1>A primeira versão</h1>
+                <h3>A primeira versão</h3>
                 <p>
                 A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://danmorrill.org" target="_blank" rel="external">Dan Morrill.</a> Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank" rel="external">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
                 <article>
@@ -97,9 +44,10 @@
                 </p>
             </section>
             <section>
-                <h1>Surge um novo mascote</h1>
+                <h3>Surge um novo mascote</h3>
                 <p>
-                    A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/"  target="_blank" rel="external">Irina Blok</a>Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+                    A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/"  target="_blank" rel="external">Irina Blok,</a> também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+                </p>
                 <article>
                     <picture>
                         <source media="(max-width: 750px)" srcset="./imagens/irina-blok-pq.jpg" type="image/JPG">
@@ -107,30 +55,33 @@
                         <img src="./imagens/irina-blok.jpg" alt="Imagem flexível">
                     </picture>
                 </article>
-                </p>
-            </section>
-            <article>
             <section>
                 <p>
                     A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <a href="https://pensedigital.com.br/voce-sabe-como-surgiu-o-famoso-mascote-android/"  target="_blank" rel="external">Bugdroid</a>, o novo mascote do Android.
-                <p>
-            </section>
-            
-            <section>
-                    <picture>
-                        <source media="(max-width: 750px)" srcset="./imagens/bugdroid.png" type="image/PNG">
+                </p>
+                    <article id="bugdroid">
                         <img src="./imagens/bugdroid.png" alt="Imagem flexível">
-                    </picture>
-                
+                    </article>
+                <p>
                     A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+                </p>
              </section>
-             <section> 
-                 <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5K4pEk19nhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <section id="background">
+                    <article id="iframe">
+                        <iframe  width="700" height="315" src="https://www.youtube.com/embed/5K4pEk19nhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article> 
+             </section>
+             <section>
+                <p>Quer aprender mais?</p>
+                <p>
+                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
                 </p>
-                 <p>
-                    <a href="https://www.youtube.com/embed/5K4pEk19nhs" target="_blank" rel="external">Não consegue assistir? Clique aqui!</a>
-                </p>
+                <ol type="1" start="1,5">
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                </ol>
              </section>
         </main>
         <footer>
