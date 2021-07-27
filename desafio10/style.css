@@ -1,27 +1,26 @@
-    /* "import" da fonte.
-    
-    @font-face 
+    @font-face {
         font-family: 'Droid Android';
         src: url('idroid.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
-    
-    */
+    }
     
     @media (max-width: 1000px){
         iframe{
           width: 80%;
         }
       }
+
     header {
-    text-align: center;
-    padding: 10px;
-    margin: -10px;
-    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.445);
+        height: 160px;
+        text-align: center;
+        padding: 10px;
+        margin: -10px;
+        background-color: #1A5C38;
+        box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.753);
+        background-image: linear-gradient(to top, transparent, rgba(58, 238, 184, 0.795));
     }
-
     
-
     nav {
         font-size: 13px;
         padding: 2px;
@@ -52,12 +51,13 @@
         color: black;
         background-color: white;
         border-radius: 0px 0px 20px 20px;
-        margin: auto;
-        padding: 0px 5px 0px 5px;
+        margin: -22px auto;
+        padding: 0px 15px 0px 15px;
     }
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
     }
 
     h2{
@@ -74,6 +74,10 @@
         text-align: left;
         font-size: 18px;
     }
+
+    img {
+        max-width: 100%;
+      }
 
     footer {
         background-color: #63B788;
