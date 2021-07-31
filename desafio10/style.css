@@ -1,27 +1,146 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #00b894;
+    }
+
     @font-face {
         font-family: 'Droid Android';
-        src: url('idroid.otf') format('opentype');
+        src: url('./fontes/idroid.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
     }
     
     @media (max-width: 1000px){
-        iframe{
+        .iframe {
           width: 80%;
         }
-      }
-      
-    header {
-        height: 160px;
-        text-align: center;
-        padding: 10px;
-        margin: -10px;
-        background-color: #1A5C38;
-        box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.753);
-        background-image: linear-gradient(to top, transparent, rgba(58, 238, 184, 0.795));
     }
     
-    nav {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+
+    header {
+        font-family: Arial, sans-serif;
+        color: #FFF;
+        height: 160px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #1A5C38;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.753);
+        background-image: linear-gradient(to top, transparent, rgba(58, 238, 184, 0.795));
+    }
+
+    header h1 {
+        margin: 10px 0px 20px 0px;
+    }
+
+    header nav {
+        display: flex;
+
+    }
+
+    nav a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFF;
+        padding: 5px;
+        text-decoration: none;
+        transition: opacity 0.5s;
+    }
+
+    nav a:hover {
+        opacity: 0.7;
+    }
+
+    .main-container {
+        display: flex;
+        flex: 1;
+        background-color: #84E1AD;
+        justify-content: center;
+    }
+
+    .content-main {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        background-color: #FFF;
+    }
+
+    .container-text {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    .container-text picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text h2, h3{
+        font-family: 'Droid Android', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .container-img img {
+        width: 100%;
+    }
+
+    .iframe-container {
+        box-sizing: border-box;
+        display: flex;
+        flex: 1;
+        width: 100%;
+        background-color: #1A5C38;
+        justify-content: center;
+    }
+
+    .iframe-container iframe {
+        width: 600px;
+        height: 315px;
+        margin: 10px;
+    }
+
+    .footer-container {
+        font-family: Arial, sans-serif;
+        background-color: #a2e6bf;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .footer-container li {
+        list-style: none;
+    }
+
+    .footer-container .container-title {
+        background-color: #367a54;
+        padding: 10px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .footer-container .container-title p {
+        color: #FFF;
+        font-weight: 500;
+    }
+
+    .footer-container .container-subtitle {
+        padding: 10px;
+        
+    }
+
+    /*nav {
         font-size: 13px;
         padding: 2px;
         text-align: left;
@@ -116,4 +235,4 @@
 
     #background {
         background-color: #1A5C38;
-    }
+    } */
